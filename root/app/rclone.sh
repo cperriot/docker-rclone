@@ -14,6 +14,6 @@
     fi
   fi
 
-  echo "Executing => $sync_command"
+  echo "`date` : Executing => $sync_command"
   eval "$sync_command"
 ) 200>/var/lock/rclone.lock
