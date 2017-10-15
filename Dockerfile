@@ -1,5 +1,5 @@
 FROM alpine:latest
-MAINTAINER tynor88 <tynor@hotmail.com>
+MAINTAINER cperriot <cedric.perriot@gmail.com>
 
 # global environment settings
 ENV RCLONE_VERSION="current"
