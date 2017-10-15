@@ -1,14 +1,14 @@
 [appurl]: https://rclone.org/
-[microbadger]: https://microbadger.com/images/tynor88/rclone
-[dockerstore]: https://store.docker.com/community/images/tynor88/rclone
-[docker-rclone-mount]: https://github.com/tynor88/docker-rclone-mount
+[microbadger]: https://microbadger.com/images/cperriot/rclone
+[dockerstore]: https://store.docker.com/community/images/cperriot/rclone
+[docker-rclone-mount]: https://github.com/cperriot/docker-rclone-mount
 
 # docker-rclone
-[![Docker Layers](https://images.microbadger.com/badges/image/tynor88/rclone.svg)][microbadger]
-[![Docker Pulls](https://img.shields.io/docker/pulls/tynor88/rclone.svg)][dockerstore]
-[![Docker Stars](https://img.shields.io/docker/stars/tynor88/rclone.svg)][dockerstore]
-[![Docker Build Status](https://img.shields.io/docker/build/tynor88/rclone.svg)][dockerstore]
-[![Docker Build](https://img.shields.io/docker/automated/tynor88/rclone.svg)][dockerstore]
+[![Docker Layers](https://images.microbadger.com/badges/image/cperriot/rclone.svg)][microbadger]
+[![Docker Pulls](https://img.shields.io/docker/pulls/cperriot/rclone.svg)][dockerstore]
+[![Docker Stars](https://img.shields.io/docker/stars/cperriot/rclone.svg)][dockerstore]
+[![Docker Build Status](https://img.shields.io/docker/build/cperriot/rclone.svg)][dockerstore]
+[![Docker Build](https://img.shields.io/docker/automated/cperriot/rclone.svg)][dockerstore]
 
 Docker for [Rclone][appurl] - a command line program to sync files and directories to and from various cloud services.
 
@@ -67,5 +67,5 @@ docker create \
 
 ## Versions
 
-+ **2017/01/25:**
++ **2017/10/15:**
   * Initial release
